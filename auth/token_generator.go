@@ -30,7 +30,7 @@ import (
 	"strings"
 	"sync"
 
-	"firebase.google.com/go/v4/internal"
+	"github.com/tyahha/firebase-admin-go/v4/internal"
 )
 
 type jwtHeader struct {

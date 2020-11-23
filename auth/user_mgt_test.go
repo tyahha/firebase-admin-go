@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"firebase.google.com/go/v4/errorutils"
-	"firebase.google.com/go/v4/internal"
+	"github.com/tyahha/firebase-admin-go/v4/errorutils"
+	"github.com/tyahha/firebase-admin-go/v4/internal"
 	"google.golang.org/api/iterator"
 )
 

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"firebase.google.com/go/v4/errorutils"
+	"github.com/tyahha/firebase-admin-go/v4/errorutils"
 )
 
 type refOp func(r *Ref) error

@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"firebase.google.com/go/v4/db"
+	"github.com/tyahha/firebase-admin-go/v4/db"
 )
 
 var heightSorted = []string{
