@@ -25,12 +25,12 @@ import (
 	"os"
 
 	"cloud.google.com/go/firestore"
-	"github.com/tyahha/firebase-admin-go/v4/auth"
-	"github.com/tyahha/firebase-admin-go/v4/db"
-	"github.com/tyahha/firebase-admin-go/v4/iid"
-	"github.com/tyahha/firebase-admin-go/v4/internal"
-	"github.com/tyahha/firebase-admin-go/v4/messaging"
-	"github.com/tyahha/firebase-admin-go/v4/storage"
+	"firebase.google.com/go/v4/auth"
+	"firebase.google.com/go/v4/db"
+	"firebase.google.com/go/v4/iid"
+	"firebase.google.com/go/v4/internal"
+	"firebase.google.com/go/v4/messaging"
+	"firebase.google.com/go/v4/storage"
 	"google.golang.org/api/option"
 	"google.golang.org/api/transport"
 )

@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tyahha/firebase-admin-go/v4/messaging"
+	"firebase.google.com/go/v4/messaging"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"

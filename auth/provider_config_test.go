@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tyahha/firebase-admin-go/v4/errorutils"
+	"firebase.google.com/go/v4/errorutils"
 	"google.golang.org/api/iterator"
 )
 

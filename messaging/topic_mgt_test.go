@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tyahha/firebase-admin-go/v4/errorutils"
+	"firebase.google.com/go/v4/errorutils"
 )
 
 func TestSubscribe(t *testing.T) {

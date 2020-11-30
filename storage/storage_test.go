@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tyahha/firebase-admin-go/v4/internal"
+	"firebase.google.com/go/v4/internal"
 	"google.golang.org/api/option"
 )
 

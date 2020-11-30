@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tyahha/firebase-admin-go/v4/auth"
+	"firebase.google.com/go/v4/auth"
 	"google.golang.org/api/iterator"
 )
 
