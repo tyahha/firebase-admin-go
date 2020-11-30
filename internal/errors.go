@@ -47,6 +47,9 @@ const (
 	// NotFound is a OnePlatform error code.
 	NotFound ErrorCode = "NOT_FOUND"
 
+	// NotFound is a OnePlatform error code.
+	EmailNotFound ErrorCode = "EMAIL_NOT_FOUND"
+
 	// Conflict is a custom error code that represents HTTP 409 responses.
 	//
 	// OnePlatform APIs typically respond with ABORTED or ALREADY_EXISTS explicitly. But a few

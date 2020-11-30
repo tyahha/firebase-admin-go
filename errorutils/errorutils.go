@@ -60,6 +60,13 @@ func IsNotFound(err error) bool {
 	return internal.HasPlatformErrorCode(err, internal.NotFound)
 }
 
+// IsEmailNotFound checks if the given error was due to a specified user record not found.
+//
+// This may also occur when there is no existing user record corresponding to the email identifier.
+func IsEmailNotFound(err error) bool {
+	return internal.HasPlatformErrorCode(err, internal.EmailNotFound)
+}
+
 // IsConflict checks if the given error was due to a concurrency conflict, such as a
 // read-modify-write conflict.
 //
